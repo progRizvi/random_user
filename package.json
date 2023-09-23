@@ -1,0 +1,25 @@
+{
+  "name": "random_user",
+  "version": "1.0.0",
+  "description": "random user generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Rizvi Ahmed",
+  "license": "ISC",
+  "engines": {
+    "node": "12.16.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0"
+  }
+}
